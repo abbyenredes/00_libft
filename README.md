@@ -56,18 +56,18 @@ Si estas dando tus primeros pasos en el mundo del código te recomiendo que empi
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
 Sin más preámbulos comencemos:
-Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/Makefile), aqui te dejo un resumen que espero sea de ayuda:
-![Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
+Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/00_libft/blob/main/Makefile), aquí te dejo un resumen que espero sea de ayuda:
+![Makefile](https://github.com/abbyenredes/00_libft/blob/main/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
 
 ##  Parte 1 - Funciones de libc
 
 | Funciones de clasificación de carácteres | Descripción |
 | ------------- | ------------- |
-| [ft_isalpha](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isalpha.c)  | Comprueba si existe algún carácter *true* tanto para máyusculas(65-90) como para minúsculas(97-122) |
-| [ft_isdigit](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isdigit.c)  | Comprueba si existe algún carácter de dígito decimal(48-57) |
-| [ft_isalnum](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isalnum.c)  | Comprueba si existe algún carácter para el que isalpha o isdigit sea *true* |
-| [ft_isascii](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isascii.c)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
-| [ft_isprint](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isprint.c)  | Comprueba si existe algún carácter de impresión, incluyendo el espacio(' ')(32-126) |
+| [ft_isalpha](https://github.com/abbyenredes/00_libft/blob/main/ft_isalpha.c)  | Comprueba si existe algún carácter *true* tanto para máyusculas(65-90) como para minúsculas(97-122) |
+| [ft_isdigit](https://github.com/abbyenredes/00_libft/blob/main/ft_isdigit.c)  | Comprueba si existe algún carácter de dígito decimal(48-57) |
+| [ft_isalnum](https://github.com/abbyenredes/00_libft/blob/main/ft_isalnum.c)  | Comprueba si existe algún carácter para el que isalpha o isdigit sea *true* |
+| [ft_isascii](https://github.com/abbyenredes/00_libft/blob/main/ft_isascii.c)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
+| [ft_isprint](https://github.com/abbyenredes/00_libft/blob/main/ft_isprint.c)  | Comprueba si existe algún carácter de impresión, incluyendo el espacio(' ')(32-126) |
 
 > [!Note]
 > Para estas funciones me he ayudado de una tabla ascii en el formato decimal también puedes poner este comando en tu consola ```man ascii```
@@ -75,8 +75,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de asignación de mayúsculas y minúsculas | Descripción |
 | ------------- | ------------- |
-| [ft_toupper](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_toupper.c)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_tolower](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_tolower.c)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_toupper](https://github.com/abbyenredes/00_libft/blob/main/ft_toupper.c)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_tolower](https://github.com/abbyenredes/00_libft/blob/main/ft_tolower.c)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
 
 | Funciones varias | Descripción |
 | ------------- | ------------- |
