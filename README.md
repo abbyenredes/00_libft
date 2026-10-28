@@ -207,16 +207,15 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 ![](https://github.com/abbyenredes/00_libft/blob/main/docs/lstadd_front.gif)
 
 ## Roadmap
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/1.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/2.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/3.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/3.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/4.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/5.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/6.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/7.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/8.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/9.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/1.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/2.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/3.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/4.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/5.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/6.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/7.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/8.jpg)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/9.jpg)
 
 # Buena suerte con tu primera libreria
 
