@@ -80,55 +80,55 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones varias | Descripción |
 | ------------- | ------------- |
-| [ft_strlen](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strlen.c)  | Recorre una cadena y devuelve su número de carácteres|
-| [ft_memset](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memset.c)  | Se usa para llenar un bloque de memoria con un valor en particular, toma tres argumentos: La dirección de la memoria, byte constante para llenar la memoria y el número de bytes a sobrescribir |
-| [ft_bzero](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_bzero.c)  | Pone a 0 n bytes en una región de la memoria, sirve sobretodo para borrarla de los valores basura. A veces, hay struct que contiene múltiples valores de máscara de bits que necesitan ser puestos a cero explícitamente antes de la inicialización de sus miembros. No retorna ningún valor|
+| [ft_strlen](https://github.com/abbyenredes/00_libft/blob/main/ft_strlen.c)  | Recorre una cadena y devuelve su número de carácteres|
+| [ft_memset](https://github.com/abbyenredes/00_libft/blob/main/ft_memset.c)  | Se usa para llenar un bloque de memoria con un valor en particular, toma tres argumentos: La dirección de la memoria, byte constante para llenar la memoria y el número de bytes a sobrescribir |
+| [ft_bzero](https://github.com/abbyenredes/00_libft/blob/main/ft_bzero.c)  | Pone a 0 n bytes en una región de la memoria, sirve sobretodo para borrarla de los valores basura. A veces, hay struct que contiene múltiples valores de máscara de bits que necesitan ser puestos a cero explícitamente antes de la inicialización de sus miembros. No retorna ningún valor|
 
 
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
-| [ft_memcpy](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memcpy.c)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst). Se utiliza principalmente para copiar datos de una matriz a otra, esta función nos devuelve el valor de la memoria de destino |
-| [ft_memmove](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memmove.c)  | Copia n carácteres de la memoria de origen(src) a la memoria de destino(dst) . Sin embargo, se asegura de que no estén superpuestos. Por esta razón, si src[] >= dst[] lo copia en orden creciente, pero si src[] < dst[] lo copia en orden descendente, ambas formas devuelven el valor de dst |
-| [ft_strlcpy](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strlcpy.c)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer, devuelve el número de bytes copiados en la variable destino. |
+| [ft_memcpy](https://github.com/abbyenredes/00_libft/blob/main/ft_memchr.c)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst). Se utiliza principalmente para copiar datos de una matriz a otra, esta función nos devuelve el valor de la memoria de destino |
+| [ft_memmove](https://github.com/abbyenredes/00_libft/blob/main/ft_memmove.c)  | Copia n carácteres de la memoria de origen(src) a la memoria de destino(dst) . Sin embargo, se asegura de que no estén superpuestos. Por esta razón, si src[] >= dst[] lo copia en orden creciente, pero si src[] < dst[] lo copia en orden descendente, ambas formas devuelven el valor de dst |
+| [ft_strlcpy](https://github.com/abbyenredes/00_libft/blob/main/ft_strlcpy.c)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer, devuelve el número de bytes copiados en la variable destino. |
 
 
 | Funciones de concatenación | Descripción |
 | ------------- | ------------- |
-| [ft_strlcat](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strlcat.c)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento, devuelve la suma total de la variable dst y src agregando un byte extra para el carácter nulo|
+| [ft_strlcat](https://github.com/abbyenredes/00_libft/blob/main/ft_strlcat.c)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento, devuelve la suma total de la variable dst y src agregando un byte extra para el carácter nulo|
 
 
 | Funciones de comparación| Descripción |
 | ------------- | ------------- |
-| [ft_memcmp](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memcmp.c)  | Compara los bloques de memoria byte a byte hasta n bytes o hasta encontrar una diferencia. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2 (Puede usarse para comparar cualquier tipo de datos en la memoria.) |
-| [ft_strncmp](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strncmp.c)  | Compara las cadenas de caracteres carácter a carácter hasta n carácteres o hasta encontrar una diferencia. También considera el carácter nulo '\0' como parte de la comparación.. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 ( es útil para ordenar o buscar cadenas.) |
+| [ft_memcmp](https://github.com/abbyenredes/00_libft/blob/main/ft_memcmp.c)  | Compara los bloques de memoria byte a byte hasta n bytes o hasta encontrar una diferencia. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2 (Puede usarse para comparar cualquier tipo de datos en la memoria.) |
+| [ft_strncmp](https://github.com/abbyenredes/00_libft/blob/main/ft_strncmp.c)  | Compara las cadenas de caracteres carácter a carácter hasta n carácteres o hasta encontrar una diferencia. También considera el carácter nulo '\0' como parte de la comparación.. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 ( es útil para ordenar o buscar cadenas.) |
 
 
 | Funciones de búsqueda | Descripción |
 | ------------- | ------------- |
-| [ft_memchr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memchr.c)  | Se utiliza para buscar un byte específico en un bloque de memoria. La función recorre los bytes en la memoria desde el principio hasta un máximo de n bytes o hasta que encuentre el byte c, devolviendo un puntero a la ubicación donde lo encontró en la memoria. |
-| [ft_strchr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strchr.c)  | Busca la primera aparición de un carácter específico dentro de la cadena original., recorriendo la string desde el **principio**. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
-| [ft_strrchr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strrchr.c)  | Busca cierta letra dentro de una cadena de texto, recorriendo la string desde la **última** aparición. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
-| [ft_strnstr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strnstr.c)  | Busca una subcadena (needle) dentro de una cadena más larga (haystack) hasta un máximo de len carácteres. Si encuentra una coincidencia completa, devuelve un puntero a esa posición en haystack; de lo contrario, devuelve NULL. Esta función es útil para buscar subcadenas en una cadena más grande con un límite máximo de búsqueda. |
+| [ft_memchr](https://github.com/abbyenredes/00_libft/blob/main/ft_memchr.c)  | Se utiliza para buscar un byte específico en un bloque de memoria. La función recorre los bytes en la memoria desde el principio hasta un máximo de n bytes o hasta que encuentre el byte c, devolviendo un puntero a la ubicación donde lo encontró en la memoria. |
+| [ft_strchr](https://github.com/abbyenredes/00_libft/blob/main/ft_strchr.c)  | Busca la primera aparición de un carácter específico dentro de la cadena original., recorriendo la string desde el **principio**. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
+| [ft_strrchr](https://github.com/abbyenredes/00_libft/blob/main/ft_strrchr.c)  | Busca cierta letra dentro de una cadena de texto, recorriendo la string desde la **última** aparición. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
+| [ft_strnstr](https://github.com/abbyenredes/00_libft/blob/main/ft_strnstr.c)  | Busca una subcadena (needle) dentro de una cadena más larga (haystack) hasta un máximo de len carácteres. Si encuentra una coincidencia completa, devuelve un puntero a esa posición en haystack; de lo contrario, devuelve NULL. Esta función es útil para buscar subcadenas en una cadena más grande con un límite máximo de búsqueda. |
 
 
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
-| [ft_atoi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_atoi.c)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_atoi](https://github.com/abbyenredes/00_libft/blob/main/ft_atoi.c)  | Convierte una serie de cáracteres en un valor entero. |
 
 | Funciones de administración de memoria | Descripción |
 | ------------- | ------------- |
-| [ft_calloc](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_calloc.c)  | Asigna la memoria solicitada y devuelve un puntero a ella. La diferencia entre malloc y calloc es que malloc no establece la memoria en cero, mientras que calloc establece la memoria asignada en cero. Parámetros(nitems = este es el número de elementos que se asignarán. size = este es el tamaño de los elementos.)|
-| [ft_strdup](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strdup.c)  | Permite crear una copia exacta de una cadena de caracteres existente, asignando memoria dinámicamente Esto es útil cuando se desea tener una versión independiente de una cadena para modificarla sin afectar la original |
+| [ft_calloc](https://github.com/abbyenredes/00_libft/blob/main/ft_calloc.c)  | Asigna la memoria solicitada y devuelve un puntero a ella. La diferencia entre malloc y calloc es que malloc no establece la memoria en cero, mientras que calloc establece la memoria asignada en cero. Parámetros(nitems = este es el número de elementos que se asignarán. size = este es el tamaño de los elementos.)|
+| [ft_strdup](https://github.com/abbyenredes/00_libft/blob/main/ft_strdup.c)  | Permite crear una copia exacta de una cadena de caracteres existente, asignando memoria dinámicamente Esto es útil cuando se desea tener una versión independiente de una cadena para modificarla sin afectar la original |
 
 
 ##  Parte 2 - Funciones adicionales
 
 | Funciones de entrada/salida de carácteres | Descripción |
 | ------------- | ------------- |
-| [ft_putchar_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putchar_fd.c)  | Escribe un carácter en el fd especificado. |
-| [ft_putstr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putstr_fd.c)  | Escribe una cadena en el fd especificado. |
-| [ft_putendl_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putendl_fd.c)  | Escribe una cadena seguida de un salto de linea(\n) en el fd especificado. |
-| [ft_putnbr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putnbr_fd.c)  | Escribe un número entero(int) en el fd especificado. |
+| [ft_putchar_fd](https://github.com/abbyenredes/00_libft/blob/main/ft_putchar_fd.c)  | Escribe un carácter en el fd especificado. |
+| [ft_putstr_fd](https://github.com/abbyenredes/00_libft/blob/main/ft_putstr_fd.c)  | Escribe una cadena en el fd especificado. |
+| [ft_putendl_fd](https://github.com/abbyenredes/00_libft/blob/main/ft_putendl_fd.c)  | Escribe una cadena seguida de un salto de linea(\n) en el fd especificado. |
+| [ft_putnbr_fd](https://github.com/abbyenredes/00_libft/blob/main/ft_putnbr_fd.c)  | Escribe un número entero(int) en el fd especificado. |
 
 
 > [!Note]
@@ -138,22 +138,22 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de cadena | Descripción |
 | ------------- | ------------- |
-| [ft_substr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_substr.c)  | Devuelve un segmento de datos de una cadena de origen más extensa (s: un puntero a la cadena de origen. start: el índice inicial de la subcadena en la cadena de origen. len: la longitud máxima de la subcadena.) |
-| [ft_split](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_split.c)  | Crea una subcadena a partir de una cadena determinada. Dividiendo una cadena en una matriz de subcadenas según un carácter delimitador. (s: un puntero a la cadena que se va a dividir. c: el carácter delimitador utilizado para dividir la cadena.) Devuelve una matriz de cadenas asignada dinámicamente que representa las subcadenas divididas. |
-| [ft_strtrim](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strtrim.c)  | Recorta los caracteres iniciales y finales de una cadena en función de un conjunto de caracteres determinado. (s1: un puntero a la cadena que se va a recortar. set: puntero al conjunto de caracteres que se van a recortar), se devuelve un puntero a la cadena recortada.|
+| [ft_substr](https://github.com/abbyenredes/00_libft/blob/main/ft_substr.c)  | Devuelve un segmento de datos de una cadena de origen más extensa (s: un puntero a la cadena de origen. start: el índice inicial de la subcadena en la cadena de origen. len: la longitud máxima de la subcadena.) |
+| [ft_split](https://github.com/abbyenredes/00_libft/blob/main/ft_split.c)  | Crea una subcadena a partir de una cadena determinada. Dividiendo una cadena en una matriz de subcadenas según un carácter delimitador. (s: un puntero a la cadena que se va a dividir. c: el carácter delimitador utilizado para dividir la cadena.) Devuelve una matriz de cadenas asignada dinámicamente que representa las subcadenas divididas. |
+| [ft_strtrim](https://github.com/abbyenredes/00_libft/blob/main/ft_strtrim.c)  | Recorta los caracteres iniciales y finales de una cadena en función de un conjunto de caracteres determinado. (s1: un puntero a la cadena que se va a recortar. set: puntero al conjunto de caracteres que se van a recortar), se devuelve un puntero a la cadena recortada.|
 
 | Funciones de concatenación de cadenas | Descripción |
 | ------------- | ------------- |
-| [ft_strjoin](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strjoin.c)  | Concatena dos cadenas en una nueva cadena. Retornando esta nueva cadena.|
+| [ft_strjoin](https://github.com/abbyenredes/00_libft/blob/main/ft_strjoin.c)  | Concatena dos cadenas en una nueva cadena. Retornando esta nueva cadena.|
 
 | Funciones de conversión de cadenas | Descripción |
 | ------------- | ------------- |
-| [ft_itoa](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_itoa.c)  | Convierte un número entero en una representación de cadena. |
+| [ft_itoa](https://github.com/abbyenredes/00_libft/blob/main/ft_itoa.c)  | Convierte un número entero en una representación de cadena. |
 
 | Punteros a función | Descripción |
 | ------------- | ------------- |
-| [ft_striteri](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_striteri.c)  | Aplica una función f a cada carácter de la cadena s, junto con su índice correspondiente. Comprueba si tanto s como f son punteros válidos antes de continuar. Inicializa un contador i para realizar un seguimiento del índice e itera sobre los caracteres de la cadena s, aplicando la función f con el índice y carácter actuales |
-| [ft_strmapi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strmapi.c)  | Aplica una función f a cada carácter de la cadena s, generando una nueva cadena con los caracteres modificados. Primero determina la longitud de la cadena de entrada y asigna memoria para la nueva cadena. Luego, itera sobre los caracteres de la cadena de entrada, aplicando la función f y almacenando el resultado en la nueva cadena. Se devuelve la cadena modificada resultante. | 
+| [ft_striteri](https://github.com/abbyenredes/00_libft/blob/main/ft_striteri.c)  | Aplica una función f a cada carácter de la cadena s, junto con su índice correspondiente. Comprueba si tanto s como f son punteros válidos antes de continuar. Inicializa un contador i para realizar un seguimiento del índice e itera sobre los caracteres de la cadena s, aplicando la función f con el índice y carácter actuales |
+| [ft_strmapi](https://github.com/abbyenredes/00_libft/blob/main/ft_strmapi.c)  | Aplica una función f a cada carácter de la cadena s, generando una nueva cadena con los caracteres modificados. Primero determina la longitud de la cadena de entrada y asigna memoria para la nueva cadena. Luego, itera sobre los caracteres de la cadena de entrada, aplicando la función f y almacenando el resultado en la nueva cadena. Se devuelve la cadena modificada resultante. | 
 
 > [!Note]
 > punteros a función en este [link](https://jraleman.medium.com/c-programming-language-passing-a-function-as-a-parameter-90d52fe842ea)
@@ -162,25 +162,25 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Listas enlazadas | Descripción |
 | ------------- | ------------- |
-| [ft_lstnew](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstnew.c)  | Inserta un nodo con dato x en la lista, pudiendo realizarse esta inserción al principio o final de la lista o bien en orden. |
-| [ft_lstadd_front](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstadd_front.c)  | Inserta un nodo con dato x al principio de la lista. |
-| [ft_lstsize](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstsize.c)  | Cuenta el número de nodos de una lista. |
-| [ft_lstlast](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstlast.c)  | Devuelve el último nodo de la lista. |
-| [ft_lstadd_back](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstadd_back.c)  | Inserta un nodo con dato x al final de la lista. |
-| [ft_lstdelone](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstdelone.c)  | Elimina un único nodo 'lst' de la lista vinculada y libera su contenido usando la función 'del', luego desasigna la memoria para el nodo. |
-| [ft_lstclear](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstclear.c)  | Borra toda la lista enlazada a la que apunta 'lst' y desasigna memoria para cada nodo. |
-| [ft_lstiter](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstiter.c)  | Itera a través de una lista vinculada 'lst' y aplica la función 'f' al contenido de cada nodo. |
-| [ft_lstmap](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstmap.c)  | Crea una nueva lista vinculada aplicando una función determinada a cada elemento de una lista vinculada existente. Los elementos transformados resultantes se utilizan para formar una nueva lista. |
+| [ft_lstnew](https://github.com/abbyenredes/00_libft/blob/main/ft_lstnew.c)  | Inserta un nodo con dato x en la lista, pudiendo realizarse esta inserción al principio o final de la lista o bien en orden. |
+| [ft_lstadd_front](https://github.com/abbyenredes/00_libft/blob/main/ft_lstadd_front.c)  | Inserta un nodo con dato x al principio de la lista. |
+| [ft_lstsize](https://github.com/abbyenredes/00_libft/blob/main/ft_lstsize.c)  | Cuenta el número de nodos de una lista. |
+| [ft_lstlast](https://github.com/abbyenredes/00_libft/blob/main/ft_lstlast.c)  | Devuelve el último nodo de la lista. |
+| [ft_lstadd_back](https://github.com/abbyenredes/00_libft/blob/main/ft_lstadd_back.c)  | Inserta un nodo con dato x al final de la lista. |
+| [ft_lstdelone](https://github.com/abbyenredes/00_libft/blob/main/ft_lstdelone.c)  | Elimina un único nodo 'lst' de la lista vinculada y libera su contenido usando la función 'del', luego desasigna la memoria para el nodo. |
+| [ft_lstclear](https://github.com/abbyenredes/00_libft/blob/main/ft_lstclear.c)  | Borra toda la lista enlazada a la que apunta 'lst' y desasigna memoria para cada nodo. |
+| [ft_lstiter](https://github.com/abbyenredes/00_libft/blob/main/ft_lstiter.c)  | Itera a través de una lista vinculada 'lst' y aplica la función 'f' al contenido de cada nodo. |
+| [ft_lstmap](https://github.com/abbyenredes/00_libft/blob/main/ft_lstmap.c)  | Crea una nueva lista vinculada aplicando una función determinada a cada elemento de una lista vinculada existente. Los elementos transformados resultantes se utilizan para formar una nueva lista. |
 
 ## Pongamoslo a prueba
 
 ### parte de test
 
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/test.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/test.gif)
 
 ### Comprobamos que Makefile cumple los requerimientos
 
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/Makefile.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/Makefile.gif)
 
 ### Compilando algunas funciones
 
@@ -189,22 +189,22 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 > si es en la misma carpeta ```gcc main.c -L. -lft```
 
 #### strrchr
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/strrchr.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/strrchr.gif)
 
 #### strdup
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/strdup.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/strdup.gif)
 
 #### substr
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/substr.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/substr.gif)
 
 #### strmapi
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/strmapi.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/strmapi.gif)
 
 #### split
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/split.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/split.gif)
 
 #### lstadd_front
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/lstadd_front.gif)
+![](https://github.com/abbyenredes/00_libft/blob/main/docs/lstadd_front.gif)
 
 ## Roadmap
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/1.jpg)
